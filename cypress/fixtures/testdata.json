@@ -1,0 +1,37 @@
+
+  [
+
+
+      {
+        "username" : "ajit.kusernamear@dror.co.in",
+        "password" : "12345",
+        "expected" : "Invalid credentials"
+    },
+      {
+        "username" : "Admin",
+        "password" : "admin123",
+        "expected" : "Dashboard"
+    },
+      {
+        "username" : "ajit.kumar@dror.co.in",
+        "password" : "1235346545",
+        "expected" : "Invalid credentials"
+    },
+      {
+        "username" : "ajit.kumar@dror.co.in",
+        "password" : "123gterye45",
+        "expected" : "Invalid credentials"
+    },
+      {
+        "username" : "ajitkuma322r@dror.co.in",
+        "password" : "12345",
+        "expected" : "Invalid credentials"
+    },
+    {
+        "username" : "tusja@.co.in",
+        "password" : "pathak ",
+        "expected" : "Invalid credentials"
+    
+    }
+
+  ]      
