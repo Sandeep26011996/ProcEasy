@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "test" : " npx cypress run --headed",
+    "test" : " cypress run --headed ",
     "cy:parallel" : " cypress-parallel -d login.cy.js -t 2 -s test",
-    "cypress:chrome":"cypress run --browser chrome --spec cypress/e2e/pages/LoginPage.js/*."
+    "cypress:chrome":"cypress run --browser chrome --spec cypress/e2e/*CreatePR.cy.js"
+    
   },
   
   "devDependencies": {
